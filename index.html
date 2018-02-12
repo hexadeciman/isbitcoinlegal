@@ -4,6 +4,7 @@
 <head>
   <title>isBitcoinLegal</title>
   <link rel="stylesheet" href="lib/jquery-jvectormap-2.0.3.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
   <script src="lib/jquery-3.3.1.min.js"></script>
   <script src="lib/jquery-jvectormap-2.0.3.min.js"></script>
   <script src="lib/jquery-jvectormap-world-mill.js"></script>
@@ -15,6 +16,22 @@
 
 <body style="height: 100%; margin: 0">
   <div id="world-map" style="width: 100%; height: 100%"></div>
+  <div class="legend">
+    <ul>
+      <li>
+        <div class="square square--white"></div>
+        <span>Unknown data</span>
+      </li>
+      <li>
+        <div class="square square--green"></div>
+        <span>Bitcoin is legal</span>
+      </li>
+      <li>
+        <div class="square square--red"></div>
+        <span>Bitcoin is illegal</span>
+      </li>
+    </ul>
+  </div>
 </body>
 
 </html>

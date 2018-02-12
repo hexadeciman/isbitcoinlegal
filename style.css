@@ -1,0 +1,33 @@
+*{
+  font-family: arial;
+  color:white;
+}
+
+.legend{
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  z-index:2;
+}
+
+li{
+  list-style-type: none;
+}
+
+.square{
+  width: 15px;
+  height: 15px;
+  display: inline-block; 
+}
+
+.square--white{
+  background-color: #fff;
+}
+
+.square--green{
+  background-color: #3ab772;
+}
+
+.square--red{
+  background-color: #e25b62;
+}
