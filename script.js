@@ -1,6 +1,6 @@
 $(function () {
-  const allowed_color = '#e25b62';
-  const not_allowed_color = '#3ab772';
+  const not_allowed_color = '#e25b62';
+  const allowed_color = '#3ab772';
 
   function formatCountriesData(list_of_countries) {
     let formatted_countries = {}
@@ -17,12 +17,12 @@ $(function () {
         {
           values: formatCountriesData(not_allowed_countries),
           attribute: 'fill',
-          scale: [allowed_color],
+          scale: [not_allowed_color],
         },
         {
           values: formatCountriesData(allowed_countries),
           attribute: 'fill',
-          scale: [not_allowed_color],
+          scale: [allowed_color],
         }
       ]
     },
